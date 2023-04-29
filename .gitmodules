@@ -1,0 +1,3 @@
+[submodule "Krida/vendor/spdlog"]
+	path = Krida/vendor/spdlog
+	url = https://github.com/gabime/spdlog
