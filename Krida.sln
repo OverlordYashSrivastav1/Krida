@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sandbox", "Sandbox\Sandbox.vcxproj", "{75CC7EC1-78C0-427E-A31B-64947092E05C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Krida", "Krida\Krida.vcxproj", "{61FF28C2-C305-45D1-B6FA-AC91EB2987CE}"
+EndProject
+
+
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61FF28C2-C305-45D1-B6FA-AC91EB2987CE}.Debug|x64.ActiveCfg = Debug|x64
+		{61FF28C2-C305-45D1-B6FA-AC91EB2987CE}.Debug|x64.Build.0 = Debug|x64
+		{61FF28C2-C305-45D1-B6FA-AC91EB2987CE}.Release|x64.ActiveCfg = Release|x64
+		{61FF28C2-C305-45D1-B6FA-AC91EB2987CE}.Release|x64.Build.0 = Release|x64
+		{75CC7EC1-78C0-427E-A31B-64947092E05C}.Debug|x64.ActiveCfg = Debug|x64
+		{75CC7EC1-78C0-427E-A31B-64947092E05C}.Debug|x64.Build.0 = Debug|x64
+		{75CC7EC1-78C0-427E-A31B-64947092E05C}.Release|x64.ActiveCfg = Release|x64
+		{75CC7EC1-78C0-427E-A31B-64947092E05C}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0FAA9105-EC78-479A-9681-5D6D6AC99E1B}
+	EndGlobalSection
+EndGlobal
