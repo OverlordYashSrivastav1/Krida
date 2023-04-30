@@ -6,15 +6,22 @@ extern Krida::Application* Krida::CreateApplication();
 
 int main(int argc, char** argv) {
 
-	printf("KRIDA ONLINE!");
+	printf("KRIDA ONLINE! \n");
 
-	//Krida::Log::Init();
+	Krida::Log::Init();
+
+	KD_CORE_WARN("From entrypoint core");
+	int a = 100;
+	KD_INFO("Client var={0}", a);
+
+	Krida::Log::GetClientLogger()->info(" From Client ");
+
 	auto app = Krida::CreateApplication();
-	//Sandbox* sandbox = new Sandbox();
+	
 	app -> Run();
-	//sandbox->Run();
+
 	delete app;
-	//delete sandbox;
+
 }
 
 #endif

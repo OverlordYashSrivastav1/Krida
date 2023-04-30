@@ -7,7 +7,7 @@ namespace Krida {
 	Application::~Application(){}
 
 	void Application::Run()
-	{
+	{ 
 		while (true);
 	}
 }
