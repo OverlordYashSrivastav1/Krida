@@ -10,6 +10,8 @@ int main(int argc, char** argv) {
 
 	Krida::Log::Init();
 
+	KD_CORE_INFO("TEST");
+
 	KD_CORE_WARN("From entrypoint core");
 	int a = 100;
 	KD_INFO("Client var={0}", a);
